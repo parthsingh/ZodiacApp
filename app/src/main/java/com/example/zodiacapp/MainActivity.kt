@@ -92,7 +92,7 @@ class MainActivity : ComponentActivity(), AdapterView.OnItemSelectedListener{
 
 
             // set the rapid-api key
-            connection.setRequestProperty("X-RapidAPI-Key", "a580783b34msh5ddca55198c7c8bp169420jsnce6e30875511")
+            connection.setRequestProperty("X-RapidAPI-Key", "")
 
             connection.setRequestProperty("X-RapidAPI-Host", "horoscope-astrology.p.rapidapi.com")
            // connection.setRequestProperty("content-type", "application/x-www-form-urlencoded")
